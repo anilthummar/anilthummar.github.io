@@ -2,7 +2,7 @@
 
 Personal portfolio site built from CV content. Host on **GitHub Pages** and share one link with recruiters.
 
-**Live URL (after setup):** `https://<your-github-username>.github.io/<repo-name>/`
+**Live URL:** https://anilthummar.github.io/
 
 ## What's included
 
