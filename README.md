@@ -1,67 +1,38 @@
-# Anil Thummar — Developer Portfolio
+# Hi, I'm Anil Thummar 👋
 
-Personal portfolio site built from CV content. Host on **GitHub Pages** and share one link with recruiters.
+[![Portfolio](https://img.shields.io/badge/Portfolio-anilthummar.github.io-22d3ee?style=for-the-badge)](https://anilthummar.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Anil%20Thummar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anil-thummar-22a645232/)
+[![Email](https://img.shields.io/badge/Email-anilthummar1990@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anilthummar1990@gmail.com)
 
-**Live URL:** https://anilthummar.github.io/
+**Senior Flutter & Android Developer** · 11+ years mobile · Ahmedabad, India · Available in 15 days
 
-## What's included
+🌐 **Live portfolio:** [https://anilthummar.github.io/](https://anilthummar.github.io/)
 
-- Single-page responsive site (About, Skills, Experience, Projects, Education, Contact)
-- Download links for both CV PDFs
-- No build step — plain HTML, CSS, and JavaScript
+## Live apps on stores
 
-## Deploy to GitHub Pages
+| App | Store |
+|-----|-------|
+| Standard Process | [Google Play](https://play.google.com/store/apps/details?id=com.standardprocess.app.healthcare) |
+| Keen | [App Store](https://apps.apple.com/us/app/keen-fitness-wellness-rewards/id6753166041) |
+| Rise & Habit Pro | [Google Play](https://play.google.com/store/apps/details?id=com.raisehabittracker.pro) |
+| Watch Horse TV | [Google Play](https://play.google.com/store/apps/details?id=com.watchhorsetv.www) |
+| PressBox Football Stats | [Google Play](https://play.google.com/store/apps/details?id=com.PressBox.pressbox) |
+| CRMTiger | [Google Play](https://play.google.com/store/apps/details?id=com.crmtiger.vtigercrm) |
+| LeadMaster | [Google Play](https://play.google.com/store/apps/details?id=com.leadmaster) |
+| Marble Solitaire | [Google Play](https://play.google.com/store/apps/details?id=com.bv.marbles) |
 
-### 1. Create a GitHub repository
+## Tech stack
 
-1. Go to [github.com/new](https://github.com/new)
-2. Name it e.g. `anil-thummar-profile` (or `anilthummar.github.io` if you want `https://anilthummar.github.io` with no subpath)
-3. Do **not** add a README on GitHub (you already have one locally)
+`Flutter` `Dart` `Kotlin` `Android` `Firebase` `BLoC` `Clean Architecture` `REST APIs` `HealthKit` `CI/CD`
 
-### 2. Push this project
+## GitHub profile README
 
-```bash
-cd /Users/anil.thummar/Projects/anil-thummar-profile
-git remote add origin https://github.com/anilthummar/anil-thummar-profile.git
-git add .
-git commit -m "Add portfolio site for GitHub Pages"
-git branch -M main
-git push -u origin main
-```
+To show this on your GitHub profile (`github.com/anilthummar`), create a repo named **`anilthummar`** (same as your username), add a `README.md` with the content above, or use [GitHub Profile README Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/).
 
-Replace `anilthummar/anil-thummar-profile` with your actual username and repo name.
-
-### 3. Enable GitHub Pages
-
-1. Open the repo on GitHub → **Settings** → **Pages**
-2. Under **Build and deployment** → **Source**, choose **Deploy from a branch**
-3. Branch: **main**, folder: **/ (root)**
-4. Save. After 1–2 minutes your site will be live at the URL shown on that page.
-
-### Optional: Custom domain
-
-In **Pages** settings, add your domain (e.g. `anilthummar.dev`) and configure DNS with your registrar.
-
-## Preview locally
+## Local preview
 
 ```bash
-cd /Users/anil.thummar/Projects/anil-thummar-profile
 python3 -m http.server 8080
 ```
 
 Open [http://localhost:8080](http://localhost:8080)
-
-## Customize
-
-- **Play Store / App Store links:** Edit `index.html` project cards and wrap store badges in `<a href="...">` with real store URLs.
-- **Photo:** Add `assets/photo.jpg` and an `<img>` in the hero section.
-- **Analytics:** Add Google Analytics or Plausible in `<head>` if desired.
-
-## Files
-
-```
-index.html          Main page
-css/styles.css      Styles
-js/main.js          Navigation & footer year
-assets/cv/          PDF resumes
-```
